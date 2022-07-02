@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/interior.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar{
+
+    width: 100%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    letter-spacing: 0.3em;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.icon{
+    width: 20%;
+    float: left;
+    font-size: 26px;
+}
+.menu{
+    float: right;
+    display: inline;
+    text-decoration: none;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 10Px;
+
+}
+
+ul li{
+	font-family:"times new roman";
+	list-style: none;
+	margin-left: 90px;
+	margin-top: 27px;
+	font-size: 16px;
+	color: white;
+}
+
+ul li a{
+
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li:hover{
+    text-decoration: underline;
+    color: lightseagreen;
+    
+
+}
+
+.content{
+    text-align: center;
+    text-decoration: sans-serif;
+    list-style: none;
+
+}
+
+.content h1{
+    text-decoration: snow;
+    margin-left: 85px;
+    margin-top: 280px;
+    font-size: largers;
+    color: white;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: normal;
+}
+
+button{
+    width: 20%;
+    height: 40px;
+    padding: 15px 0;
+    background: transparent;
+    color: white;
+    border: 1px solid lightseagreen;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 0 20px 0;
+
+}
+
+button:hover{
+    background:lightseagreen;
+    
+}
